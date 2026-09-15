@@ -4002,3 +4002,22 @@ html, body {
     width: 100%;
     overflow-x: hidden;
 }
+/* Mobile Section 1 */
+@media screen and (max-width: 736px) {
+
+    #one {
+        width: 100%;
+    }
+
+    #one .inner {
+        width: 100%;
+        max-width: none;
+    }
+
+    #one .form-elements {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
