@@ -4016,3 +4016,21 @@ html, body {
     }
 
 }
+/* Mobile Section 2 */
+@media screen and (max-width: 736px) and (orientation: portrait) {
+
+    #two {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #two > .inner {
+        width: 100%;
+        max-width: none;
+    }
+
+    #two ul {
+        text-align: left;
+    }
+
+}
