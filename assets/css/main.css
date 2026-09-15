@@ -3989,4 +3989,16 @@ input, select, textarea {
 	#header {
 		font-family: 'Amatic SC', cursive; /* Apply Amatic SC to all header text */
 	}
-	
+	canvas {
+    display: block;
+    width: 100% !important;
+    max-width: 800px;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
