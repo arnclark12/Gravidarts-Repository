@@ -1,14 +1,14 @@
 let s0, s1, j;
 
-let board_center_x = 400;
-let board_center_y = 400;
+let board_center_x = 275;
+let board_center_y = 275;
 let board_radius = 240;
 
 let dartCount = 0; // Keep track of how many darts have been thrown
 
 function setup() {
     // Keep the physics coordinate system at 800 x 800
-    new Canvas(800, 800, InteractiveDartboardCanvas);
+    new Canvas(550, 550, InteractiveDartboardCanvas);
 
     world.gravity.y = 200;
 
