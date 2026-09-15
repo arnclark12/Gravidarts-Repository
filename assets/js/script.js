@@ -44,7 +44,7 @@ function setup() {
     // POINTER
     pointer = new Sprite(
         board_center_x - 4,
-        board_center_y + board_radius + 5,
+        board_center_y + board_radius + 10,
         25,
         51,
         'n'
