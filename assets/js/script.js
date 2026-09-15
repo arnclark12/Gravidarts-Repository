@@ -9,6 +9,7 @@ let dartCount = 0; // Keep track of how many darts have been thrown
 function setup() {
     // Keep the physics coordinate system at 800 x 800
     new Canvas(550, 550, InteractiveDartboardCanvas);
+    canvas.style.border = "2px solid #d3d3d3";
 
     world.gravity.y = 200;
 
