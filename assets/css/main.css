@@ -4005,12 +4005,13 @@ html, body {
 /* Mobile Section 1 */
 @media screen and (max-width: 736px) and (orientation: portrait) {
 
-    #one .wrapper {
+    #one {
         padding-left: 0.5em;
         padding-right: 0.5em;
     }
 
-    #one .wrapper > .inner {
+    #one .major,
+    #one .minor {
         width: 100%;
         max-width: none;
     }
