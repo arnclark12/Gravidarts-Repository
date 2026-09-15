@@ -4003,21 +4003,16 @@ html, body {
     overflow-x: hidden;
 }
 /* Mobile Section 1 */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) and (orientation: portrait) {
 
-    #one {
-        width: 100%;
+    #one .wrapper {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 
-    #one .inner {
+    #one .wrapper > .inner {
         width: 100%;
         max-width: none;
-    }
-
-    #one .form-elements {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
 
 }
